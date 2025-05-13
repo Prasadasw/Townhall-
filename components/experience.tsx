@@ -16,12 +16,13 @@ export const Experience = () => {
       </p>
       <div className="mt-12 grid w-full grid-cols-1 gap-10 lg:grid-cols-4">
         {workExperience.map((experience) => (
-          <Button
-            key={experience.id}
-            borderRadius="1.75rem"
-            className="flex-1 border-neutral-200 text-white dark:border-slate-800"
-            duration={Math.floor(Math.random() * 10000 + 10000)}
-          >
+        <Button
+        key={experience.id}
+        borderRadius="1.75rem"
+        className={`flex-1 border-neutral-200 text-white dark:border-slate-800 ${experience.className}`}
+        duration={Math.floor(Math.random() * 10000 + 10000)}
+      >
+      
             <div className="flex flex-col gap-2 p-3 py-6 md:p-5 lg:flex-row lg:items-center lg:p-10">
               <Image
                 width={95}

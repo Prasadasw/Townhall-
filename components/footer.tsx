@@ -129,7 +129,7 @@ export const Footer = () => {
               {socialMedia.map((profile) => (
                 <Link
                   key={profile.name}
-                  href={profile.link}
+                  href='#'
                   target="_blank"
                   rel="noreferrer noopener"
                   className="flex size-10 items-center justify-center rounded-lg bg-black-200 transition-colors hover:bg-purple"
@@ -202,10 +202,10 @@ export const Footer = () => {
               &copy; {new Date().getFullYear()} Townhall Devs. All rights reserved.
             </p>
             <div className="mt-4 flex space-x-6 md:mt-0">
-              <Link href="/privacy" className="text-white-200 hover:text-purple">
+              <Link href="#" className="text-white-200 hover:text-purple">
                 Privacy Policy
               </Link>
-              <Link href="/terms" className="text-white-200 hover:text-purple">
+              <Link href="#" className="text-white-200 hover:text-purple">
                 Terms of Service
               </Link>
             </div>

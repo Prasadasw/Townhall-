@@ -201,23 +201,30 @@ export const workExperience = [
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
+  {
+    id: 5,
+    title: "Securing Tomorrow, Today.",
+    desc: "At Townhall, cybersecurity is more than a role—it’s a mission. TOWNHALL is where our experts lead with cutting-edge services like penetration testing and incident response, supported by innovations in Zero Trust architecture and AI-driven threat detection. From global events like DEF CON to daily defense strategies, we’re building a safer digital world through action, insight, and community.",
+    className: "col-span-1 md:col-span-2",
+    thumbnail: "/download.jpeg",
+  },
 ] as const;
 
 export const socialMedia = [
   {
     name: "GitHub",
     img: "/git.svg",
-    link: "https://github.com/sanidhyy",
+    // link: "https://github.com/sanidhyy",
   },
   {
     name: "Twitter",
     img: "/twit.svg",
-    link: "https://twitter.com/TechnicalShubam",
+    // link: "https://twitter.com/TechnicalShubam",
   },
   {
     name: "LinkedIn",
     img: "/link.svg",
-    link: "https://www.linkedin.com/in/sanidhyy",
+    // link: "https://www.linkedin.com/in/sanidhyy",
   },
 ] as const;
 
