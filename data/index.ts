@@ -206,7 +206,7 @@ export const workExperience = [
     title: "Securing Tomorrow, Today.",
     desc: "At Townhall, cybersecurity is more than a role—it’s a mission. TOWNHALL is where our experts lead with cutting-edge services like penetration testing and incident response, supported by innovations in Zero Trust architecture and AI-driven threat detection. From global events like DEF CON to daily defense strategies, we’re building a safer digital world through action, insight, and community.",
     className: "col-span-1 md:col-span-2",
-    thumbnail: "/download.jpeg",
+    thumbnail: "/download.png",
   },
 ] as const;
 

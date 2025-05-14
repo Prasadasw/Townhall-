@@ -10,6 +10,8 @@ import Link from "next/link";
 import { useState } from "react";
 import { navItems } from "@/data";
 import { cn } from "@/lib/utils";
+import Image from "next/image";
+import th from '../../public/th/black.svg'
 
 type FloatingNavProps = {
   navItems: typeof navItems;
@@ -59,9 +61,9 @@ export const FloatingNav = ({
         className="fixed inset-x-0 top-10 z-[5000] mx-auto flex w-full justify-center"
       >
         {/* Left side - Contact Now button */}
-        <div className="absolute left-10 top-0 flex h-full items-center">
+        <div className="absolute left-10 flex h-full items-start justify-start">
           {logo || (
-            <div className="text-xl font-bold text-white">TOWNHALL</div>
+            <Image src={th} alt='th' className="w-24 h-20  "/>
           )}
         </div>
 

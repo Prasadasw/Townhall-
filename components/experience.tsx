@@ -54,13 +54,13 @@ export const Experience = () => {
           className="flex-1 border-neutral-200 text-white dark:border-slate-800 w-full h-72 col-span-1 md:col-span-4"
           duration={Math.floor(Math.random() * 10000 + 10000)}
         >
-          <div className="flex flex-col gap-2 p-3 py-6 md:p-5 lg:flex-row lg:items-center lg:p-10">
+          <div className="flex flex-col p-3 py-6 md:p-5 lg:flex-row lg:items-center">
             <Image
-              width={95}
-              height={87}
-              src="/download.jpeg"
+              width={170}
+              height={190}
+              src="/download.png"
               alt="Cybersecurity"
-              className="w-16 md:w-20 lg:w-32"
+              // className="w-16 md:w-20 lg:w-32"
             />
             <div className="lg:ms-5">
               <h1 className="text-start text-xl font-bold md:text-2xl">

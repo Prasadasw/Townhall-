@@ -1,14 +1,14 @@
-import Image from "next/image";
 import Link from "next/link";
 import { FaLocationArrow, FaMapMarkerAlt, FaEnvelope, FaPhoneAlt, FaPaperPlane } from "react-icons/fa";
-
 import { MagicButton } from "@/components/ui/magic-button";
 import { links } from "@/config";
 import { socialMedia } from "@/data";
+import Image from "next/image";
+import paarchute from '../public/2.png'
 
 export const Footer = () => {
   return (
-    <footer id="contact" className="relative w-full bg-black-100 pt-20 pb-10">
+    <footer id="contact" className="relative w-full bg-black-100 pb-10">
       {/* Background grid */}
       <div className="absolute inset-0 -z-10 overflow-hidden opacity-20">
         <Image
@@ -23,16 +23,18 @@ export const Footer = () => {
       <div className="container mx-auto px-4">
         {/* Contact CTA */}
         <div className="mb-16">
-          <div className="flex flex-col items-center text-center mb-12">
+          <div className="flex items-center text-center mb-12">
+          <Image src={paarchute} alt='parachute' className="w-96 h-96"/>
+
             <h1 className="heading lg:max-w-[45vw]">
               Ready to take <span className="text-purple">your</span> digital
               presence to the next level?
             </h1>
-            <p className="my-5 text-lg text-white-200 md:mt-10">
-              Reach out to us today and let's discuss how we can help you achieve your goals.
-            </p>
+         
           </div>
-
+          {/* <p className="my-5 text-lg text-white-200 md:mt-10 ">
+              Reach out to us today and let's discuss how we can help you achieve your goals.
+            </p> */}
           <div className="flex flex-col lg:flex-row gap-12 items-center">
             {/* Thoughtful message */}
             <div className="lg:w-1/2 space-y-6">
