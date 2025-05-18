@@ -8,6 +8,7 @@ import paarchute from '../public/2.png'
 
 export const Footer = () => {
   return (
+    <>
     <footer id="contact" className="relative w-full bg-black-100 pb-10">
       {/* Background grid */}
       <div className="absolute inset-0 -z-10 overflow-hidden opacity-20">
@@ -215,5 +216,6 @@ export const Footer = () => {
         </div>
       </div>
     </footer>
+    </>
   );
 };
