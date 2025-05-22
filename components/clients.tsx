@@ -40,6 +40,7 @@ export const Clients = () => {
             </div>
           ))}
         </div> */}
+        
       </div>
     </section>
   );
