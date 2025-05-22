@@ -112,32 +112,32 @@ export const projects = [
 ] as const;
 
 export const testimonials = [
-  {
-    quote: `Collaborating with ${links.ownerName} was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. ${links.ownerName}'s enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, ${links.ownerName} is the ideal partner.`,
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote: `Collaborating with ${links.ownerName} was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. ${links.ownerName}'s enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, ${links.ownerName} is the ideal partner.`,
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote: `Collaborating with ${links.ownerName} was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. ${links.ownerName}'s enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, ${links.ownerName} is the ideal partner.`,
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote: `Collaborating with ${links.ownerName} was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. ${links.ownerName}'s enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, ${links.ownerName} is the ideal partner.`,
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote: `Collaborating with ${links.ownerName} was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. ${links.ownerName}'s enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, ${links.ownerName} is the ideal partner.`,
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-] as const;
+ {
+      quote: `The ${links.ownerName} certification program transformed my counseling practice. The practical techniques and case studies were immediately applicable to my work with students.`,
+      name: "Sarah Williams",
+      title: "School Counselor at Bright Future Academy"
+    },
+    {
+      quote: `As an educator for 15 years, I've taken many professional development courses. ${links.ownerName} stands out for its research-based approach and hands-on learning modules.`,
+      name: "David Chen",
+      title: "Head of Guidance at Metro High School"
+    },
+    {
+      quote: `Our entire counseling team completed the Institutional Bundle. The comprehensive training has helped us develop a more effective college guidance program.`,
+      name: "Maria Gonzalez",
+      title: "Principal at Hillside Preparatory"
+    },
+    {
+      quote: `The Advanced Track gave me specialized skills in career assessment that have been invaluable for my private practice. The expert feedback was particularly helpful.`,
+      name: "Robert Taylor",
+      title: "Career Counselor at Pathways Consulting"
+    },
+    {
+      quote: `I recommend ${links.ownerName} to all my colleagues. The blend of theory and practical application is perfectly balanced for working professionals.`,
+      name: "Jennifer Park",
+      title: "Educational Psychologist"
+    }
+  ] as const;
 
 export const companies = [
   {
