@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { FaLocationArrow, FaMapMarkerAlt, FaEnvelope, FaPhoneAlt, FaPaperPlane } from "react-icons/fa";
-import { MagicButton } from "@/components/ui/magic-button";
+import {  FaMapMarkerAlt, FaEnvelope, FaPhoneAlt, FaPaperPlane } from "react-icons/fa";
+// import { MagicButton } from "@/components/ui/magic-button";
 import { links } from "@/config";
 import { socialMedia } from "@/data";
 import Image from "next/image";
@@ -40,12 +40,12 @@ export const Footer = () => {
             {/* Thoughtful message */}
             <div className="lg:w-1/2 space-y-6">
               <h2 className="text-3xl font-bold text-white">
-                Let's Build Something Amazing Together
+                Lets Build Something Amazing Together
               </h2>
               <p className="text-lg text-white-200">
-                We're passionate about creating digital solutions that drive real results. 
+                We are passionate about creating digital solutions that drive real results. 
                 Whether you have a project in mind or just want to explore possibilities, 
-                we'd love to hear from you.
+                we would love to hear from you.
               </p>
               <div className="space-y-4">
                 <div className="flex items-center gap-4">

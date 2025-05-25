@@ -163,8 +163,8 @@ export const FloatingNav = ({
 
               <div className="p-8">
                 <div className="mb-8">
-                  <h2 className="text-3xl font-bold text-white mb-2">Let's Talk</h2>
-                  <p className="text-gray-400">We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+                  <h2 className="text-3xl font-bold text-white mb-2">Lets Talk</h2>
+                  <p className="text-gray-400">We would love to hear from you. Send us a message and we will respond as soon as possible.</p>
                 </div>
 
                 <form className="space-y-6">
