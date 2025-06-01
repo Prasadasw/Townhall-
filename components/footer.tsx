@@ -10,7 +10,6 @@ export const Footer = () => {
   return (
     <>
     <footer id="contact" className="relative w-full bg-black-100 pb-10">
-      {/* Background grid */}
       <div className="absolute inset-0 -z-10 overflow-hidden opacity-20">
         <Image
           src="/footer-grid.svg"
@@ -35,7 +34,6 @@ export const Footer = () => {
               Reach out to us today and let's discuss how we can help you achieve your goals.
             </p> */}
           <div className="flex flex-col lg:flex-row gap-12 items-center">
-            {/* Thoughtful message */}
             <div className="lg:w-1/2 space-y-6">
               <h2 className="text-3xl font-bold text-white">
                 Lets Build Something Amazing Together

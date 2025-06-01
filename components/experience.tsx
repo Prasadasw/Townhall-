@@ -47,7 +47,6 @@ export const Experience = () => {
         ))}
       </div>
 
-      {/* Manual 5th card with full width */}
       <div className="mt-10 w-full">
         <Button
           borderRadius="1.75rem"
