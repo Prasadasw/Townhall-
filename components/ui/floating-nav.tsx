@@ -36,9 +36,9 @@ export const FloatingNav = ({
         setVisible(true);
       } else {
         if (current > lastScrollY) {
-          setVisible(false); // Scrolling down
+          setVisible(false); 
         } else {
-          setVisible(true); // Scrolling up
+          setVisible(true); 
         }
       }
       setLastScrollY(current);
@@ -47,12 +47,12 @@ export const FloatingNav = ({
 
   const handleContactClick = () => {
     setShowContactForm(true);
-    document.body.style.overflow = 'hidden'; // Prevent scrolling when modal is open
+    document.body.style.overflow = 'hidden'; 
   };
 
   const closeContactForm = () => {
     setShowContactForm(false);
-    document.body.style.overflow = 'auto'; // Re-enable scrolling
+    document.body.style.overflow = 'auto'; 
   };
 
   return (

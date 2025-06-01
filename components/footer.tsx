@@ -20,9 +20,7 @@ export const Footer = () => {
         />
       </div>
 
-      {/* Main content */}
       <div className="container mx-auto px-4">
-        {/* Contact CTA */}
         <div className="mb-16">
           <div className="flex items-center text-center mb-12">
           <Image src={paarchute} alt='parachute' className="w-96 h-96"/>
