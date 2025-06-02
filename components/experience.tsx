@@ -17,7 +17,7 @@ export const Experience = () => {
         pipelines
       </p>
 
-      {/* Grid for first 4 cards (2x2) */}
+     
       <div className="mt-12 grid w-full grid-cols-1 gap-10 lg:grid-cols-4">
         {firstFourCards.map((experience) => (
           <Button
