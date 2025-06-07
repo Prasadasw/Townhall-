@@ -14,7 +14,7 @@ export const Experience = () => {
       <p className="lg:text-l mb-4 mt-5 text-center text-sm md:text-lg md:tracking-wider">
         We specialize in crafting robust digital solutions — from sleek websites
         and scalable mobile apps to enterprise-level software systems and DevOps
-        pipelines
+        pipelines.
       </p>
 
      
