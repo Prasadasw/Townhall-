@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { FaLocationArrow } from "react-icons/fa6";
-
 import { Spotlight } from "@/components/ui/spotlight";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 import { MagicButton } from "@/components/ui/magic-button";
@@ -17,7 +16,7 @@ export const Hero = () => {
           className="left-full top-10 h-[80vh] w-[50vw]"
           fill="purple"
         />
-        <Spotlight className="left-80 top-28 h-[80vh] w-[50vw]" fill="blue" />
+        <Spotlight className="left-80 top-28 h-[80vh] w-[50vw]" fill="blue"/>
       </div>
 
       <div className="absolute left-0 top-0 flex h-screen w-full items-center justify-center bg-white bg-grid-black/[0.2] dark:bg-black-100 dark:bg-grid-white/[0.03]">

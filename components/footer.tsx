@@ -1,6 +1,5 @@
 import Link from "next/link";
 import {  FaMapMarkerAlt, FaEnvelope, FaPhoneAlt, FaPaperPlane } from "react-icons/fa";
-// import { MagicButton } from "@/components/ui/magic-button";
 import { links } from "@/config";
 import { socialMedia } from "@/data";
 import Image from "next/image";
