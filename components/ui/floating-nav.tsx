@@ -72,7 +72,7 @@ export const FloatingNav = ({
           }}
           className="fixed inset-x-0 top-10 z-[5000] mx-auto flex w-full justify-center"
         >
-          {/* Left side - Logo */}
+          {/* Left side - logo */}
           <div className="absolute left-10 flex h-full items-start justify-start">
             {logo || (
               <Image src={th} alt='th' className="w-24 h-20"/>
