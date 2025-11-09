@@ -47,12 +47,16 @@ export const FloatingNav = ({
 
   const handleContactClick = () => {
     setShowContactForm(true);
-    document.body.style.overflow = 'hidden'; 
+    if (typeof document !== "undefined") {
+      document.body.style.overflow = "hidden";
+    }
   };
 
   const closeContactForm = () => {
     setShowContactForm(false);
-    document.body.style.overflow = 'auto'; 
+    if (typeof document !== "undefined") {
+      document.body.style.overflow = "auto";
+    }
   };
 
   return (
