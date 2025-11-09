@@ -1,8 +1,24 @@
 import Link from "next/link";
 import { FaLocationArrow } from "react-icons/fa6";
 import { Spotlight } from "@/components/ui/spotlight";
-import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
+import dynamic from "next/dynamic";
 import { MagicButton } from "@/components/ui/magic-button";
+import type { TextGenerateEffectProps } from "@/components/ui/text-generate-effect";
+
+const TextGenerateEffect = dynamic<TextGenerateEffectProps>(
+  () =>
+    import("@/components/ui/text-generate-effect").then(
+      (mod) => mod.TextGenerateEffect
+    ),
+  {
+    ssr: false,
+    loading: () => (
+      <h1 className="text-center text-[40px] font-bold md:text-5xl lg:text-6xl">
+        We Build Your Idea Into Reality.
+      </h1>
+    ),
+  }
+);
 
 export const Hero = () => {
   return (

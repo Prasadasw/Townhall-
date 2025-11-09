@@ -5,13 +5,15 @@ import { useEffect } from "react";
 
 import { cn } from "@/lib/utils";
 
+export type TextGenerateEffectProps = {
+  words: string;
+  className?: string;
+};
+
 export const TextGenerateEffect = ({
   words,
   className,
-}: {
-  words: string;
-  className?: string;
-}) => {
+}: TextGenerateEffectProps) => {
   const [scope, animate] = useAnimate();
   let wordsArray = words.split(" ");
   useEffect(() => {
