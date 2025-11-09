@@ -1,10 +1,14 @@
 import { links } from "@/config";
 
+export * from "./courses";
+
 export const navItems = [
-  { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
-  { name: "Contact", link: "#contact" },
+  { name: "Home", link: "/" },
+  { name: "Courses", link: "/courses" },
+  { name: "About", link: "/#about" },
+  { name: "Projects", link: "/#projects" },
+  { name: "Testimonials", link: "/#testimonials" },
+  { name: "Contact", link: "/#contact" },
 ] as const;
 
 export const gridItems = [

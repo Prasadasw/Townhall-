@@ -4,6 +4,7 @@ import { Experience } from "@/components/experience";
 import { Footer } from "@/components/footer";
 import { Grid } from "@/components/grid";
 import { Hero } from "@/components/hero";
+import { CourseHighlights } from "@/components/course-highlights";
 import { FloatingNav } from "@/components/ui/floating-nav";
 import { RecentProjects } from "@/components/recent-projects";
 import { navItems } from "@/data";
@@ -17,6 +18,7 @@ const MainPage = () => {
       <div className="w-full max-w-7xl">
         <Hero />
         <Grid />
+        <CourseHighlights />
         <Experience />
         <Approach />
         <MissionVisionGoals />
